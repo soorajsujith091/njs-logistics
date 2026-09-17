@@ -28,17 +28,22 @@ export default function Hero() {
   return (
     <div ref={containerRef} className="px-4 md:px-8 pb-6">
       <div className="relative w-full mx-auto rounded-3xl md:rounded-[2.5rem] overflow-hidden min-h-[750px] md:min-h-[650px] lg:min-h-[85vh] bg-njs-navy shadow-2xl flex flex-col">
-        {/* Background Image Placeholder */}
-        <div 
-          className="absolute inset-0 bg-cover bg-center opacity-60"
-          style={{ backgroundImage: 'url(/images/aerial-view-cargo-ship-cargo-container-harbor.jpg)' }}
-        />
+        {/* Background Video */}
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover opacity-60"
+        >
+          <source src="/images/magnific_move-this-aeroplane-to-fl_rgNqoO3xtc (1).mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-gradient-to-r from-njs-navy/80 to-transparent mix-blend-multiply" />
         
         {/* Content */}
         <div className="relative flex-grow flex flex-col justify-between p-6 sm:p-10 md:p-16 lg:p-20">
           <div className="hero-content max-w-3xl text-white mt-4 md:mt-0">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.15] text-white mb-4 md:mb-6 tracking-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.15] text-white mb-4 md:mb-6 tracking-wider">
               Driven by Trust.<br />
               Delivered with Care.
             </h1>

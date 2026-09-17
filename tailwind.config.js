@@ -14,7 +14,8 @@ export default {
         }
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+        sans: ['Inter', 'sans-serif'],
+        heading: ['"Bebas Neue"', 'sans-serif'],
       },
     },
   },

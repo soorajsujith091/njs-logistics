@@ -1,6 +1,10 @@
 import { ArrowUpRight } from 'lucide-react';
+import { useRef } from 'react';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-const services = [
+gsap.registerPlugin(ScrollTrigger);const services = [
   {
     title: 'Air Freight',
     image: '/images/service-air.png',
@@ -52,9 +56,37 @@ const services = [
 ];
 
 export default function Services() {
+  const containerRef = useRef<HTMLElement>(null);
+
+  useGSAP(() => {
+    gsap.from('.section-header > *', {
+      y: 30,
+      opacity: 0,
+      duration: 0.8,
+      stagger: 0.2,
+      ease: 'power3.out',
+      scrollTrigger: {
+        trigger: containerRef.current,
+        start: 'top 80%',
+      }
+    });
+
+    gsap.from('.service-card', {
+      y: 50,
+      opacity: 0,
+      duration: 0.8,
+      stagger: 0.1,
+      ease: 'power3.out',
+      scrollTrigger: {
+        trigger: '.services-grid',
+        start: 'top 85%',
+      }
+    });
+  }, { scope: containerRef });
+
   return (
-    <section>
-      <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+    <section ref={containerRef}>
+      <div className="section-header flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
         <div>
           <p className="text-sm font-semibold tracking-wider text-gray-500 uppercase mb-2">Complete Logistics Solutions</p>
           <h2 className="text-3xl md:text-4xl font-bold text-njs-navy max-w-lg leading-tight">
@@ -71,9 +103,9 @@ export default function Services() {
         </div>
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="services-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
         {services.map((service, index) => (
-          <div key={index} className="group relative rounded-3xl overflow-hidden h-[300px] cursor-pointer">
+          <div key={index} className="service-card group relative rounded-3xl overflow-hidden h-[300px] cursor-pointer">
             <img 
               src={service.image} 
               alt={service.title} 
