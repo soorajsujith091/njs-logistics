@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ArrowUpRight, Calculator } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Hero() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -36,7 +37,7 @@ export default function Hero() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-60"
         >
-          <source src="/images/magnific_move-this-aeroplane-to-fl_rgNqoO3xtc (1).mp4" type="video/mp4" />
+          <source src="/images/gemini_generated_video_20d80178 (online-video-cutter.com).mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-r from-njs-navy/80 to-transparent mix-blend-multiply" />
         
@@ -71,9 +72,9 @@ export default function Hero() {
                   <p className="text-xs text-gray-500">Get a fast, accurate estimate.</p>
                 </div>
               </div>
-              <button className="w-full sm:w-auto sm:ml-2 bg-njs-orange hover:bg-orange-600 text-white px-5 py-2.5 rounded-full text-sm font-medium transition-colors flex justify-center items-center gap-2">
+              <Link to="/contact" className="w-full sm:w-auto sm:ml-2 bg-njs-orange hover:bg-orange-600 text-white px-5 py-2.5 rounded-full text-sm font-medium transition-colors flex justify-center items-center gap-2">
                 Request Quote <ArrowUpRight className="w-4 h-4" />
-              </button>
+              </Link>
             </div>
             
             <div className="hero-card bg-white p-4 rounded-3xl flex items-center gap-4 sm:gap-6 w-full md:w-auto shadow-lg">

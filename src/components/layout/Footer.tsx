@@ -38,13 +38,14 @@ export default function Footer() {
           <h4 className="font-semibold mb-4 text-njs-orange">Contact</h4>
           <ul className="space-y-2 text-sm text-gray-300">
             <li>+971 55 692 7191</li>
+            <li>+971 55 945 2733</li>
             <li>info@njslogistics.com</li>
             <li>Dubai Industrial City</li>
             <li>South Zone, Jebel Ali Freezone, Dubai</li>
           </ul>
-          <button className="mt-6 px-6 py-3 bg-njs-orange hover:bg-orange-600 text-white font-medium rounded-full transition-colors w-full sm:w-auto">
+          <Link to="/contact" className="mt-6 px-6 py-3 bg-njs-orange hover:bg-orange-600 text-white font-medium rounded-full transition-colors w-full sm:w-auto inline-block text-center">
             Request a Quote
-          </button>
+          </Link>
         </div>
       </div>
     </footer>

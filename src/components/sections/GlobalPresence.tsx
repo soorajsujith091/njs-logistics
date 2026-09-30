@@ -3,9 +3,11 @@ export default function GlobalPresence() {
   
   return (
     <section className="py-24 px-6 bg-njs-navy text-white relative overflow-hidden">
+      <div className="absolute inset-0 opacity-50 bg-[url('/images/aerial-view-cargo-ship-cargo-container-harbor.jpg')] bg-cover bg-center" />
+      <div className="absolute inset-0 bg-njs-navy/50" />
       <div className="max-w-[1440px] mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
         <div>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Global Operations</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">GLOBAL OPERATIONS</h2>
           <p className="text-gray-300 text-lg mb-8 leading-relaxed max-w-lg">
             Headquartered in Dubai, UAE, NJS Logistics operates a robust network designed to move your business forward across the globe.
           </p>

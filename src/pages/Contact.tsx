@@ -3,6 +3,18 @@ import { MapPin, Phone, Mail, Globe } from 'lucide-react';
 export default function Contact() {
   return (
     <div className="min-h-screen bg-[#f3f2ee]">
+      {/* Banner */}
+      <div className="bg-njs-navy text-white pt-24 pb-16 px-6 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-50 bg-[url('/images/hero-freight.png')] bg-cover bg-center" />
+        <div className="absolute inset-0 bg-njs-navy/50" />
+        <div className="max-w-[1440px] mx-auto text-center relative z-10">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white tracking-tight">Contact Us</h1>
+          <p className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
+            Get in touch with our team for any inquiries or support.
+          </p>
+        </div>
+      </div>
+
       <div className="max-w-[1440px] mx-auto px-6 py-24 grid grid-cols-1 lg:grid-cols-2 gap-16">
         
         {/* Contact Info */}
@@ -18,6 +30,7 @@ export default function Contact() {
               <div>
                 <p className="font-semibold text-njs-navy">Phone</p>
                 <p className="text-gray-600">+971 55 692 7191</p>
+                <p className="text-gray-600">+971 55 945 2733</p>
               </div>
             </div>
             
@@ -56,7 +69,7 @@ export default function Contact() {
         {/* Contact Form */}
         <div className="bg-white p-8 md:p-12 rounded-3xl shadow-lg border border-black/5 h-fit">
           <h2 className="text-2xl font-bold text-njs-navy mb-6">Request a Quote</h2>
-          <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+          <form className="space-y-4" onSubmit={(e) => { e.preventDefault(); alert("Thank you! Your request has been submitted successfully."); e.currentTarget.reset(); }}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">Name</label>

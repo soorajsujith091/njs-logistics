@@ -26,7 +26,7 @@ export interface MetroHeroProps {
   style?: React.CSSProperties
 }
 
-const DEFAULT_VIDEO = "/images/magnific_move-this-aeroplane-to-fl_rgNqoO3xtc (1).mp4"
+const DEFAULT_VIDEO = "/images/gemini_generated_video_20d80178.mp4"
 const DEFAULT_SIGNATURE = { name: "NJS Logistics", url: "/" }
 const SANS = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
 

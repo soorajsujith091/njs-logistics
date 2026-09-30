@@ -13,7 +13,8 @@ export default function Careers() {
     <div className="min-h-screen bg-[#f3f2ee]">
       {/* Banner */}
       <div className="bg-njs-navy text-white pt-24 pb-16 px-6 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-20 bg-[url('/images/hero-freight.png')] bg-cover bg-center mix-blend-multiply" />
+        <div className="absolute inset-0 opacity-50 bg-[url('/images/hero-freight.png')] bg-cover bg-center" />
+        <div className="absolute inset-0 bg-njs-navy/50" />
         <div className="max-w-[1440px] mx-auto text-center relative z-10">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-white tracking-tight">Join Our Team</h1>
           <p className="text-base md:text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
