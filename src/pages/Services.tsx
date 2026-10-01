@@ -20,7 +20,7 @@ export default function Services() {
         {/* Air Freight */}
         <section id="air" className="scroll-mt-32 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1 rounded-[2rem] overflow-hidden shadow-2xl h-[400px] lg:h-[500px]">
-            <img src="/images/service-air.png" alt="Air Freight" className="w-full h-full object-cover" />
+            <img src="/images/Gemini_Generated_Image_sf5x3gsf5x3gsf5x.png" alt="Air Freight" className="w-full h-full object-cover" />
           </div>
           <div className="order-1 lg:order-2">
             <div className="flex items-center gap-4 mb-6 text-njs-orange">
@@ -63,14 +63,14 @@ export default function Services() {
             </div>
           </div>
           <div className="rounded-[2rem] overflow-hidden shadow-2xl h-[400px] lg:h-[500px]">
-            <img src="/images/service-sea.png" alt="Sea Freight" className="w-full h-full object-cover" />
+            <img src="/images/Gemini_Generated_Image_enjiqwenjiqwenji.png" alt="Sea Freight" className="w-full h-full object-cover" />
           </div>
         </section>
 
         {/* Land Freight */}
         <section id="land" className="scroll-mt-32 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1 rounded-[2rem] overflow-hidden shadow-2xl h-[400px] lg:h-[500px]">
-            <img src="/images/service-land.png" alt="Land Freight" className="w-full h-full object-cover" />
+            <img src="/images/Gemini_Generated_Image_z4w9goz4w9goz4w9.png" alt="Land Freight" className="w-full h-full object-cover" />
           </div>
           <div className="order-1 lg:order-2">
             <div className="flex items-center gap-4 mb-6 text-njs-orange">
@@ -110,7 +110,7 @@ export default function Services() {
             </div>
           </div>
           <div className="rounded-[2rem] overflow-hidden shadow-2xl h-[400px]">
-            <img src="/images/service-door.png" alt="Door to Door Delivery" className="w-full h-full object-cover" />
+            <img src="/images/WhatsApp%20Image%202026-10-01%20at%201.19.46%20PM.jpeg" alt="Door to Door Delivery" className="w-full h-full object-cover" />
           </div>
         </section>
 

@@ -7,19 +7,19 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);const services = [
   {
     title: 'Air Freight',
-    image: '/images/service-air.png',
+    image: '/images/Gemini_Generated_Image_sf5x3gsf5x3gsf5x.png',
     description: 'Flexible air cargo solutions for urgent, high-value and time-sensitive shipments.',
     link: '/services#air'
   },
   {
     title: 'Sea Freight',
-    image: '/images/service-sea.png',
+    image: '/images/Gemini_Generated_Image_enjiqwenjiqwenji.png',
     description: 'Cost-effective ocean freight solutions for both consolidated and full-container shipments.',
     link: '/services#sea'
   },
   {
     title: 'Land Freight',
-    image: '/images/service-land.png',
+    image: '/images/Gemini_Generated_Image_z4w9goz4w9goz4w9.png',
     description: 'Reliable road transportation for cargo movement across the UAE and regional destinations.',
     link: '/services#land'
   },
@@ -37,7 +37,7 @@ gsap.registerPlugin(ScrollTrigger);const services = [
   },
   {
     title: 'Door-to-Door Delivery',
-    image: '/images/service-door.png',
+    image: '/images/WhatsApp%20Image%202026-10-01%20at%201.19.46%20PM.jpeg',
     description: 'Coordinated pickup, transportation, clearance and final delivery through one streamlined service.',
     link: '/services#door'
   },

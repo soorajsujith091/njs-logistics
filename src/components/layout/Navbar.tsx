@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Linkedin, Menu, X } from 'lucide-react';
+import { Facebook, Instagram, Menu, X } from 'lucide-react';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,14 +27,11 @@ export default function Navbar() {
         
         <div className="flex items-center gap-3 z-50">
           <div className="hidden md:flex items-center gap-3">
-            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white hover:border-njs-orange transition-all text-njs-navy">
+            <a href="https://www.facebook.com/NJS.Logistics" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white hover:border-njs-orange transition-all text-njs-navy">
               <Facebook className="w-4 h-4" />
             </a>
-            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white hover:border-njs-orange transition-all text-njs-navy">
+            <a href="https://www.instagram.com/njs_logistics/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white hover:border-njs-orange transition-all text-njs-navy">
               <Instagram className="w-4 h-4" />
-            </a>
-            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white hover:border-njs-orange transition-all text-njs-navy">
-              <Linkedin className="w-4 h-4" />
             </a>
           </div>
 
@@ -61,14 +58,11 @@ export default function Navbar() {
           <Link to="/contact" onClick={() => setIsOpen(false)} className="text-lg font-medium text-njs-navy hover:text-njs-orange transition-colors">Contact us</Link>
           
           <div className="flex items-center gap-4 pt-6 border-t border-black/10 md:hidden">
-            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white transition-all text-njs-navy">
+            <a href="https://www.facebook.com/NJS.Logistics" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white transition-all text-njs-navy">
               <Facebook className="w-4 h-4" />
             </a>
-            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white transition-all text-njs-navy">
+            <a href="https://www.instagram.com/njs_logistics/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white transition-all text-njs-navy">
               <Instagram className="w-4 h-4" />
-            </a>
-            <a href="#" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white transition-all text-njs-navy">
-              <Linkedin className="w-4 h-4" />
             </a>
           </div>
         </div>

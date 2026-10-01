@@ -4,9 +4,9 @@ export default function Industries() {
   const industries = [
     { icon: <Car className="w-8 h-8" />, title: 'Automotive', desc: 'Secure transport for vehicles and parts.', image: '/images/transport-logistics-products.jpg' },
     { icon: <HeartPulse className="w-8 h-8" />, title: 'Healthcare', desc: 'Temperature-controlled medical logistics.', image: '/images/logistics-means-transport-together-with-technological-futuristic-holograms.jpg' },
-    { icon: <ShoppingCart className="w-8 h-8" />, title: 'Retail & FMCG', desc: 'Fast-moving consumer goods distribution.', image: '/images/service-door.png' },
+    { icon: <ShoppingCart className="w-8 h-8" />, title: 'Retail & FMCG', desc: 'Fast-moving consumer goods distribution.', image: '/images/WhatsApp%20Image%202026-10-01%20at%201.19.46%20PM.jpeg' },
     { icon: <Cpu className="w-8 h-8" />, title: 'Technology', desc: 'Safe handling of sensitive electronics.', image: '/images/service-warehouse.png' },
-    { icon: <Factory className="w-8 h-8" />, title: 'Industrial', desc: 'Heavy machinery and equipment moving.', image: '/images/service-land.png' },
+    { icon: <Factory className="w-8 h-8" />, title: 'Industrial', desc: 'Heavy machinery and equipment moving.', image: '/images/Gemini_Generated_Image_z4w9goz4w9goz4w9.png' },
     { icon: <Leaf className="w-8 h-8" />, title: 'Agriculture', desc: 'Fresh produce and perishable goods.', image: '/images/aerial-view-cargo-ship-cargo-container-harbor.jpg' },
   ];
 

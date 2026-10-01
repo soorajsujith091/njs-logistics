@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
+import { Facebook, Instagram } from 'lucide-react';
 
 export default function Footer() {
   return (
     <footer className="bg-njs-navy text-white py-16 px-6">
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
-        <div className="space-y-4">
+        <div className="space-y-6">
           <img 
             src="/images/footer-logo-transparent.png" 
             alt="NJS Logistics Logo" 
@@ -13,6 +14,14 @@ export default function Footer() {
           <p className="text-gray-300 text-sm">
             NJS Logistics LLC is a modern freight forwarding and logistics company providing reliable, efficient and seamless cargo solutions across the UAE, GCC and worldwide destinations.
           </p>
+          <div className="flex items-center gap-4">
+            <a href="https://www.facebook.com/NJS.Logistics" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-njs-orange hover:text-white transition-all text-white">
+              <Facebook className="w-5 h-5" />
+            </a>
+            <a href="https://www.instagram.com/njs_logistics/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-njs-orange hover:text-white transition-all text-white">
+              <Instagram className="w-5 h-5" />
+            </a>
+          </div>
         </div>
         
         <div>

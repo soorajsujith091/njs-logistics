@@ -37,7 +37,7 @@ export default function Hero() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-60"
         >
-          <source src="/images/gemini_generated_video_20d80178 (online-video-cutter.com).mp4" type="video/mp4" />
+          <source src="/images/magnific_move-this-aeroplane-to-fl_rgNqoO3xtc%20(1).mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-r from-njs-navy/80 to-transparent mix-blend-multiply" />
         
