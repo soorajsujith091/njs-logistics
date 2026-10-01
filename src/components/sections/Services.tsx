@@ -7,7 +7,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);const services = [
   {
     title: 'Air Freight',
-    image: '/images/Gemini_Generated_Image_sf5x3gsf5x3gsf5x.png',
+    image: '/images/ChatGPT%20Image%20Oct%201,%202026,%2004_19_55%20PM.png',
     description: 'Flexible air cargo solutions for urgent, high-value and time-sensitive shipments.',
     link: '/services#air'
   },
@@ -19,7 +19,7 @@ gsap.registerPlugin(ScrollTrigger);const services = [
   },
   {
     title: 'Land Freight',
-    image: '/images/Gemini_Generated_Image_z4w9goz4w9goz4w9.png',
+    image: '/images/ChatGPT%20Image%20Oct%201,%202026,%2005_10_06%20PM.png',
     description: 'Reliable road transportation for cargo movement across the UAE and regional destinations.',
     link: '/services#land'
   },

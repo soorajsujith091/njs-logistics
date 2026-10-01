@@ -9,7 +9,7 @@ export default function Footer() {
           <img 
             src="/images/footer-logo-transparent.png" 
             alt="NJS Logistics Logo" 
-            className="h-16 w-auto object-contain brightness-0 invert scale-[1.2] origin-left"
+            className="h-16 w-auto object-contain scale-[1.2] origin-left"
           />
           <p className="text-gray-300 text-sm">
             NJS Logistics LLC is a modern freight forwarding and logistics company providing reliable, efficient and seamless cargo solutions across the UAE, GCC and worldwide destinations.
