@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram, Menu, X } from 'lucide-react';
+import { Facebook, Instagram, Menu, X, MessageCircle } from 'lucide-react';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,6 +33,9 @@ export default function Navbar() {
             <a href="https://www.instagram.com/njs_logistics/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white hover:border-njs-orange transition-all text-njs-navy">
               <Instagram className="w-4 h-4" />
             </a>
+            <a href="https://wa.me/971556927191?text=Hello%20NJS%20Logistics%2C%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white hover:border-njs-orange transition-all text-njs-navy" title="WhatsApp">
+              <MessageCircle className="w-4 h-4" />
+            </a>
           </div>
 
           <button 
@@ -63,6 +66,9 @@ export default function Navbar() {
             </a>
             <a href="https://www.instagram.com/njs_logistics/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white transition-all text-njs-navy">
               <Instagram className="w-4 h-4" />
+            </a>
+            <a href="https://wa.me/971556927191?text=Hello%20NJS%20Logistics%2C%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-white border border-black/10 hover:bg-njs-orange hover:text-white transition-all text-njs-navy" title="WhatsApp">
+              <MessageCircle className="w-4 h-4" />
             </a>
           </div>
         </div>

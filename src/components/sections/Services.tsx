@@ -19,7 +19,7 @@ gsap.registerPlugin(ScrollTrigger);const services = [
   },
   {
     title: 'Land Freight',
-    image: '/images/ChatGPT%20Image%20Oct%201,%202026,%2005_10_06%20PM.png',
+    image: '/images/ChatGPT%20Image%20Oct%202,%202026,%2010_14_07%20AM.png',
     description: 'Reliable road transportation for cargo movement across the UAE and regional destinations.',
     link: '/services#land'
   },

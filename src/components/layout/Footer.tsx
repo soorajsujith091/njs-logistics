@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Instagram } from 'lucide-react';
+import { Facebook, Instagram, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -20,6 +20,9 @@ export default function Footer() {
             </a>
             <a href="https://www.instagram.com/njs_logistics/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-njs-orange hover:text-white transition-all text-white">
               <Instagram className="w-5 h-5" />
+            </a>
+            <a href="https://wa.me/971556927191?text=Hello%20NJS%20Logistics%2C%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-njs-orange hover:text-white transition-all text-white" title="WhatsApp">
+              <MessageCircle className="w-5 h-5" />
             </a>
           </div>
         </div>

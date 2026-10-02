@@ -6,7 +6,7 @@ export default function Industries() {
     { icon: <HeartPulse className="w-8 h-8" />, title: 'Healthcare', desc: 'Temperature-controlled medical logistics.', image: '/images/logistics-means-transport-together-with-technological-futuristic-holograms.jpg' },
     { icon: <ShoppingCart className="w-8 h-8" />, title: 'Retail & FMCG', desc: 'Fast-moving consumer goods distribution.', image: '/images/WhatsApp%20Image%202026-10-01%20at%201.19.46%20PM.jpeg' },
     { icon: <Cpu className="w-8 h-8" />, title: 'Technology', desc: 'Safe handling of sensitive electronics.', image: '/images/service-warehouse.png' },
-    { icon: <Factory className="w-8 h-8" />, title: 'Industrial', desc: 'Heavy machinery and equipment moving.', image: '/images/ChatGPT%20Image%20Oct%201,%202026,%2005_10_06%20PM.png' },
+    { icon: <Factory className="w-8 h-8" />, title: 'Industrial', desc: 'Heavy machinery and equipment moving.', image: '/images/ChatGPT%20Image%20Oct%202,%202026,%2010_14_07%20AM.png' },
     { icon: <Leaf className="w-8 h-8" />, title: 'Agriculture', desc: 'Fresh produce and perishable goods.', image: '/images/aerial-view-cargo-ship-cargo-container-harbor.jpg' },
   ];
 

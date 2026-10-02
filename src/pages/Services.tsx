@@ -70,7 +70,7 @@ export default function Services() {
         {/* Land Freight */}
         <section id="land" className="scroll-mt-32 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1 rounded-[2rem] overflow-hidden shadow-2xl h-[400px] lg:h-[500px]">
-            <img src="/images/ChatGPT%20Image%20Oct%201,%202026,%2005_10_06%20PM.png" alt="Land Freight" className="w-full h-full object-cover" />
+            <img src="/images/ChatGPT%20Image%20Oct%202,%202026,%2010_14_07%20AM.png" alt="Land Freight" className="w-full h-full object-cover" />
           </div>
           <div className="order-1 lg:order-2">
             <div className="flex items-center gap-4 mb-6 text-njs-orange">
